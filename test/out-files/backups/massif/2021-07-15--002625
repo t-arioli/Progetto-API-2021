@@ -1,0 +1,45 @@
+desc: --massif-out-file=./test/out-files/massif-out-file
+cmd: ./GraphRanker
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=127663
+mem_heap_B=1024
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=131292
+mem_heap_B=1024
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=peak
+n1: 1024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x48D8E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x48E904F: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x48E80AF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x48E6834: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x48E6834: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x48CDAF1: __vfprintf_internal (vfprintf-internal.c:1373)
+       n1: 1024 0x49850EA: __printf_chk (printf_chk.c:33)
+        n1: 1024 0x10907A: printf (stdio2.h:107)
+         n0: 1024 0x10907A: main (GraphRanker.c:6)
+#-----------
+snapshot=3
+#-----------
+time=131292
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

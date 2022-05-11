@@ -1,0 +1,835 @@
+desc: --massif-out-file=./test/out-files/massif-out-file
+cmd: ./GraphRanker
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=145407
+mem_heap_B=577
+mem_heap_extra_B=63
+mem_stacks_B=0
+heap_tree=detailed
+n4: 577 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 512 0x48D8E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 512 0x48E904F: _IO_doallocbuf (genops.c:347)
+   n1: 512 0x48E7E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 512 0x48E9105: _IO_default_uflow (genops.c:362)
+     n1: 512 0x48BB3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 512 0x48BA3BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n0: 512 0x10916D: main (GraphRanker.c:54)
+ n1: 48 0x10934F: minimumPath (GraphRanker.c:170)
+  n1: 48 0x1097A4: addGraph (GraphRanker.c:160)
+   n1: 48 0x10993A: getInput (GraphRanker.c:75)
+    n0: 48 0x10917E: main (GraphRanker.c:58)
+ n1: 16 0x109322: minimumPath (GraphRanker.c:170)
+  n1: 16 0x1097A4: addGraph (GraphRanker.c:160)
+   n1: 16 0x10993A: getInput (GraphRanker.c:75)
+    n0: 16 0x10917E: main (GraphRanker.c:58)
+ n0: 1 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=531156
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=775519
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1109753
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=detailed
+n2: 513 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 512 0x48D8E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 512 0x48E904F: _IO_doallocbuf (genops.c:347)
+   n1: 512 0x48E7E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 512 0x48E9105: _IO_default_uflow (genops.c:362)
+     n1: 512 0x48BB3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 512 0x48BA3BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n0: 512 0x10916D: main (GraphRanker.c:54)
+ n0: 1 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=1354131
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=1546971
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=1875016
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2125727
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2395784
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=2607946
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=2935920
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=3109523
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=3379571
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=3707420
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=3919740
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=4131887
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=4459893
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=4691310
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=5058633
+mem_heap_B=545
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=5349271
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=5698904
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=5873764
+mem_heap_B=545
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=6176473
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=6411149
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=6586046
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=detailed
+n2: 513 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 512 0x48D8E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 512 0x48E904F: _IO_doallocbuf (genops.c:347)
+   n1: 512 0x48E7E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 512 0x48E9105: _IO_default_uflow (genops.c:362)
+     n1: 512 0x48BB3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 512 0x48BA3BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n0: 512 0x10916D: main (GraphRanker.c:54)
+ n0: 1 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=6934701
+mem_heap_B=577
+mem_heap_extra_B=63
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=7224560
+mem_heap_B=545
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=7411135
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=7703682
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=7937685
+mem_heap_B=529
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=8221141
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=8414012
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=8703292
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=8992602
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=9185466
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=9474800
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=9667875
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=9957124
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=10246450
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=10535770
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=detailed
+n2: 512 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 512 0x48D8E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 512 0x48E904F: _IO_doallocbuf (genops.c:347)
+   n1: 512 0x48E7E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 512 0x48E9105: _IO_default_uflow (genops.c:362)
+     n1: 512 0x48BB3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 512 0x48BA3BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n0: 512 0x10916D: main (GraphRanker.c:54)
+ n0: 0 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=10825247
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=11018134
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=11211066
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=11596770
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=11789702
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=11982520
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=12175579
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=12561283
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=12754116
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=12927735
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=13101377
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=13275026
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=13448659
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=13623063
+mem_heap_B=545
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=13796713
+mem_heap_B=545
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=13970361
+mem_heap_B=545
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=detailed
+n3: 545 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 512 0x48D8E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 512 0x48E904F: _IO_doallocbuf (genops.c:347)
+   n1: 512 0x48E7E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 512 0x48E9105: _IO_default_uflow (genops.c:362)
+     n1: 512 0x48BB3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 512 0x48BA3BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n0: 512 0x10916D: main (GraphRanker.c:54)
+ n1: 32 0x10972F: addGraph (GraphRanker.c:123)
+  n1: 32 0x10993A: getInput (GraphRanker.c:75)
+   n0: 32 0x10917E: main (GraphRanker.c:58)
+ n0: 1 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=14143970
+mem_heap_B=545
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=14318646
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=14492288
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=14665907
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=14839525
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=15013154
+mem_heap_B=545
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=15186779
+mem_heap_B=545
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=15360389
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=15534022
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=15707656
+mem_heap_B=545
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=detailed
+n3: 545 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 512 0x48D8E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 512 0x48E904F: _IO_doallocbuf (genops.c:347)
+   n1: 512 0x48E7E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 512 0x48E9105: _IO_default_uflow (genops.c:362)
+     n1: 512 0x48BB3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 512 0x48BA3BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n0: 512 0x10916D: main (GraphRanker.c:54)
+ n1: 32 0x10972F: addGraph (GraphRanker.c:123)
+  n1: 32 0x10993A: getInput (GraphRanker.c:75)
+   n0: 32 0x10917E: main (GraphRanker.c:58)
+ n0: 1 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=15882452
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=16056086
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=16229704
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=16403307
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=16576933
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=16750573
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=16936991
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=17111246
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=17293716
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=17467983
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=detailed
+n2: 513 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 512 0x48D8E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 512 0x48E904F: _IO_doallocbuf (genops.c:347)
+   n1: 512 0x48E7E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 512 0x48E9105: _IO_default_uflow (genops.c:362)
+     n1: 512 0x48BB3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 512 0x48BA3BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n0: 512 0x10916D: main (GraphRanker.c:54)
+ n0: 1 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=77
+#-----------
+time=17650296
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=17824561
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=18007047
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=18181297
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=18363686
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=18537985
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=18720467
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=18894617
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=19076670
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=19250722
+mem_heap_B=513
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=detailed
+n2: 513 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 512 0x48D8E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 512 0x48E904F: _IO_doallocbuf (genops.c:347)
+   n1: 512 0x48E7E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 512 0x48E9105: _IO_default_uflow (genops.c:362)
+     n1: 512 0x48BB3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 512 0x48BA3BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n0: 512 0x10916D: main (GraphRanker.c:54)
+ n0: 1 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=87
+#-----------
+time=19433246
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=19617997
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=19799452
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=20424186
+mem_heap_B=1025
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=peak
+n2: 1025 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x48D8E83: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 1024 0x48E904F: _IO_doallocbuf (genops.c:347)
+   n1: 512 0x48E7E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 512 0x48E9105: _IO_default_uflow (genops.c:362)
+     n1: 512 0x48BB3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 512 0x48BA3BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n0: 512 0x10916D: main (GraphRanker.c:54)
+   n1: 512 0x48E80AF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 512 0x48E6834: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 512 0x48E6834: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 512 0x48CE92C: __vfprintf_internal (vfprintf-internal.c:1687)
+       n1: 512 0x49850EA: __printf_chk (printf_chk.c:33)
+        n1: 512 0x109517: printf (stdio2.h:107)
+         n1: 512 0x109517: topK (GraphRanker.c:278)
+          n1: 512 0x109947: getInput (GraphRanker.c:80)
+           n0: 512 0x10917E: main (GraphRanker.c:58)
+ n0: 1 in 4 places, all below massif's threshold (1.00%)
