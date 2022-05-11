@@ -1,17 +1,18 @@
 # Prova finale di Algoritmi e Strutture dati - Anno Accademico 2020/2021
 
-La specifica del progetto è visibile nel file "Presentazione.pdf".
+La specifica del progetto è visibile nel file "Presentazione.pdf".  
 Il codice del progetto è interamente nel file "GraphRanker.c".
 
 
 ## Compiling
-Aprire Bash e lanciare uno dei tre scripts:
-  ``$ ./compileForLocal`` : compilazione semplice
-  ``$ ./compileForServer`` : compilazione effettuata come dal tool di valutazione
-  ``$ ./compileWithAddressSanitiezer`` : compilazione con AddressSanitizier (ASan) 
+Aprire Bash e lanciare uno dei tre scripts:  
+   ``$ ./compileForLocal`` : compilazione semplice  
+   ``$ ./compileForServer`` : compilazione effettuata come dal tool di valutazione  
+   ``$ ./compileWithAddressSanitiezer`` : compilazione con AddressSanitizier (ASan)   
+  
 
 ## Testing
-Aprire Bash e lanciare lo script:
+Aprire Bash e lanciare lo script:  
   ``$ ./testVerificator``
 (Permette la verifica dei soli testi già presenti nel package ``test``)
 
